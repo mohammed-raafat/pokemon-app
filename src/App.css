@@ -1,0 +1,41 @@
+#root {
+  font-family: Calibri;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  gap: 5rem;
+  padding: 1rem;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3583f6ff;
+  color: white;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(28, 68, 129);
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
