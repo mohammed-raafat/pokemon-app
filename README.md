@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# Pokemon App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that retrieves a list of Pokemon from a given API and displays details for a selected Pokemon. It uses TypeScript, Redux Toolkit, and RTK Query.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd pokemon-app
+   ```
 
-## Expanding the ESLint configuration
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Running the Application
 
-- Configure the top-level `parserOptions` property like this:
+1. Start the application:
+   ```sh
+   npm start
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   The application will be available at `http://localhost:3000`.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Running Tests
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Run unit tests:
+   ```sh
+   npm test
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Code Coverage
+
+The application has at least 60% coverage of unit and integration testing to ensure reliability and correctness.
