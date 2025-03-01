@@ -2,6 +2,10 @@
 
 This is a React application that retrieves a list of Pokemon from a given API and displays details for a selected Pokemon. It uses TypeScript, Redux Toolkit, and RTK Query.
 
+## Live Deployment
+
+Check the app on [https://pokemon-v0.vercel.app/]
+
 ## Installation
 
 1. Clone the repository:
