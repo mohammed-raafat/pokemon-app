@@ -6,7 +6,7 @@ This is a React application that retrieves a list of Pokemon from a given API an
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/mohammed-raafat/pokemon-app.git
    cd pokemon-app
    ```
 
@@ -19,10 +19,10 @@ This is a React application that retrieves a list of Pokemon from a given API an
 
 1. Start the application:
    ```sh
-   npm start
+   npm run dev
    ```
 
-   The application will be available at `http://localhost:3000`.
+   The application will be available at `http://localhost:5173`.
 
 ## Running Tests
 
