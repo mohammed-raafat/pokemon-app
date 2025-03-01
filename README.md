@@ -4,7 +4,7 @@ This is a React application that retrieves a list of Pokemon from a given API an
 
 ## Live Deployment
 
-Check the app on [https://pokemon-v0.vercel.app/]
+Check the app on https://pokemon-v0.vercel.app/
 
 ## Installation
 
